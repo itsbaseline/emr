@@ -1,0 +1,19 @@
+{
+  "name": "emr",
+  "version": "0.1.1",
+  "description": "easy multi-project run tool",
+  "author": "Emre Keskin <emrekeskinmac@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "js-yaml": "^3.13.1",
+    "minimist": "^1.2.0",
+    "open-terminal": "0.0.2",
+    "stmux": "*"
+  },
+  "bin": {
+    "emr": "./index.js"
+  }
+}
