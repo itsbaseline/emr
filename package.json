@@ -1,6 +1,6 @@
 {
   "name": "emr",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "easy multi-project run tool",
   "author": "Emre Keskin <emrekeskinmac@gmail.com>",
   "main": "index.js",

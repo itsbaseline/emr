@@ -14,7 +14,7 @@ export async function run(args) {
                 runScripts = runScripts + `\'${doc.projects[i].run}\' .. `
             }
         })
-        openTerminal(`cd ${currentPath} && stmux -w always -e ERROR -m beep,system -- [ [ ${runs} ] ]`, { cwd: "" });
+        openTerminal(`cd ${currentPath} && stmux -w always -e ERROR -m beep,system -- [ [ ${runScripts} ] ]`, { cwd: "" });
     } catch (e) {
         console.log(e)
     }
