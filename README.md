@@ -26,38 +26,38 @@ projects:
 
 ## Terminal Commands
 
-CTRL+activator activator:
-Send the CTRL+activator key-sequence to the focused terminal.
+CTRL+a activatorKey:
+Send the CTRL+a key-sequence to the focused terminal.
 
-CTRL+activator BACKSPACE:
+CTRL+a BACKSPACE:
 Switch the focus to the previous terminal in sequence.
 
-CTRL+activator SPACE:
+CTRL+a SPACE:
 Switch the focus to the next terminal in sequence.
 
-CTRL+activator LEFT/RIGHT/UP/DOWN:
+CTRL+a LEFT/RIGHT/UP/DOWN:
 Switch the focus to the best matching terminal in a direction.
 
-CTRL+activator 1/2/.../9:
+CTRL+a 1/2/.../9:
 Directly switch to a particular terminal.
 
-CTRL+activator n:
+CTRL+a n:
 Toggle showing/hiding of terminal numbers.
 
-CTRL+activator z:
+CTRL+a z:
 Toggle the zooming of focused terminal.
 
-CTRL+activator v:
+CTRL+a v:
 Switch the focused terminal into visual/scrolling mode. Use PAGEUP/PAGEDOWN during this mode to scroll up/down. Any other key leaves this mode.
 
-CTRL+activator l:
+CTRL+a l:
 Relayout the screen.
 
-CTRL+activator r:
+CTRL+a r:
 Restart the program in the focused terminal.
 
-CTRL+activator k:
+CTRL+a k:
 Kill the application and all shell commands in all terminals.
 
-CTRL+activator ?:
+CTRL+a ?:
 Show help window.
