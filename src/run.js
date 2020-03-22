@@ -2,7 +2,7 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 import openTerminal from 'open-terminal';
 
-export async function run(args) {
+export async function run() {
     try {
         const currentPath = process.cwd();
         const doc = yaml.safeLoad(fs.readFileSync(currentPath + '/emr.yaml', 'utf8'));

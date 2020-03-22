@@ -61,3 +61,8 @@ Kill the application and all shell commands in all terminals.
 
 CTRL+a ?:
 Show help window.
+
+## TODO
+
+[] read the file as an argument
+[] run the part you want
