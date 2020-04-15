@@ -1,6 +1,7 @@
 ## Install 
 
 ```
+npm install -g stmux
 npm install -g emr
 ```
 
