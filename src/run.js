@@ -2,10 +2,10 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 import openTerminal from 'open-terminal';
 
-export async function run() {
+export async function run(args) {
     try {
         const currentPath = process.cwd();
-        const doc = yaml.safeLoad(fs.readFileSync(currentPath + '/emr.yaml', 'utf8'));
+        const doc = yaml.safeLoad(fs.readFileSync(args.p || currentPath + '/emr.yaml', 'utf8'));
         let runScripts = "";
         Object.keys(doc.projects).map((i, index) => {
             if (index === Object.keys(doc.projects).length - 1) {

@@ -1,7 +1,6 @@
 ## Install 
 
 ```
-npm install -g stmux
 npm install -g emr
 ```
 
@@ -11,7 +10,15 @@ npm install -g emr
 emr run
 ```
 
+```
+emr run -p x.yaml
+```
+
 ## Example YAML File
+
+```
+mkdir emr.yaml
+```
 
 ```yaml
 title: Micro Frontend
@@ -65,5 +72,6 @@ Show help window.
 
 ## TODO
 
-[] read the file as an argument
-[] run the part you want
+- [ ] read the file as an argument
+
+- [ ] run the part you want

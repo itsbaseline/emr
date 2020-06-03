@@ -1,8 +1,8 @@
 {
   "name": "emr",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "easy multi-project run tool",
-  "author": "Emre Keskin <emrekeskinmac@gmail.com>",
+  "author": "Emre Keskin <me@emrekesk.in>",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {

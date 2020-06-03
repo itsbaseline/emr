@@ -4,6 +4,7 @@ const menus = {
     main: `
 ${chalk.greenBright('emr-cli [command] <options>')}
   ${chalk.blueBright('run')} ................ run projects
+  ${chalk.redBright('run -p')} ............. you can switch file path
   ${chalk.blueBright('version')} ............ show package version
   ${chalk.blueBright('help')} ............... show help menu for a command
 `,
